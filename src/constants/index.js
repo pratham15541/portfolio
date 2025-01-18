@@ -12,6 +12,8 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  java,
+  mysql,
   git,
   figma,
   docker,
@@ -27,6 +29,7 @@ import {
   php,
   suyogCable,
   codebox,
+  hostelmanagement
 } from "../assets";
 
 export const navLinks = [
@@ -124,6 +127,14 @@ const technologies = [
     name: "cpp",
     icon: cpp,
   },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "mysql",
+    icon: mysql,
+  }
 ];
 
 const experiences = [
@@ -209,8 +220,23 @@ const testimonials = [
 ];
 
 const projects = [
-  
   {
+    name:"Hostel Management System",
+    description:"The Hostel Management System is a desktop application developed using Java (Swing and AWT) and MySQL to streamline hostel operations.",
+    tags:[
+      {
+        name:"java",
+        color:"red-text-gradient"
+      },
+      {
+        name:"mysql",
+        color:"blue-text-gradient"
+      }
+    ],
+    image:hostelmanagement,
+    source_code_link:"https://github.com/pratham15541/HostelManagement",
+  }
+  ,{
     name:"CodeBox:Online Code Compiler",
     description:"CodeBox is an online code compiler that lets you compile and run code in multiple languages. It is a great tool for making projects.",
     tags:[

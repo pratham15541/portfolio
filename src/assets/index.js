@@ -22,6 +22,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import mysql from "./tech/mysql.png";
 
 import suyogCable from './company/suyog_cable.jpeg';
 import meta from "./company/meta.png";
@@ -33,6 +35,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import codebox from "./codebox.png";
+import hostelmanagement from "./hostelmanagement.png";
 
 import resume from "./pdf/resume.pdf";
 
@@ -49,6 +52,8 @@ export {
   css,
   docker,
   figma,
+  java,
+  mysql,
   git,
   html,
   javascript,
@@ -69,5 +74,6 @@ export {
   tripguide,
   suyogCable,
   codebox,
+  hostelmanagement,
   resume
 };
